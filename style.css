@@ -242,7 +242,14 @@ nav ul li a:hover {
 
 .social-links a img {
     width:42px;height:42px;
+    border-radius: 50%;
 }
+
+.social-links a img:hover {
+    transition: 2s ease;
+   transform: rotateX(360deg);
+}
+
 
 
 /* Footer */
@@ -264,7 +271,7 @@ footer {
         margin-top: 1rem;
     }
     
-    .hero-content h1 {
+    .info-content h1 {
         font-size: 2.5rem;
     }
     
