@@ -246,7 +246,7 @@ nav ul li a:hover {
 }
 
 .social-links a img:hover {
-    transition: 2s ease;
+   transition: 2s ease;
    transform: rotateX(360deg);
 }
 
