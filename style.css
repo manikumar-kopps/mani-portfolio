@@ -240,14 +240,14 @@ nav ul li a:hover {
     margin-top: 1rem;
 }
 
-.social-links a img {
+.social-links img {
     width:42px;height:42px;
     border-radius: 50%;
 }
 
 .social-links img:hover {
     transition: 2s ease;
-   transform: rotateX(360deg);
+   transform: scale(1.3);
 }
 
 
